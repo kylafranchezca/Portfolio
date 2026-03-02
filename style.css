@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background-image:url("paperbg.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:100vh;
+    position:relative;
+}
+
+/* NAVIGATION */
+nav{
+    text-align:center;
+    padding-top:4vh;
+    font-size:clamp(12px, 1.2vw, 16px);
+    font-weight:400;
+    letter-spacing:1px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#111;
+    margin:0 15px;
+}
+
+/* MAIN */
+.main{
+    position:absolute;
+    top:52%;
+    left:47%;
+    transform:translate(-50%, -50%);
+}
+
+/* TITLE */
+.title{
+    font-size:clamp(60px, 12vw, 180px);
+    font-weight:900;
+    line-height:1;
+    color:#000;
+}
+
+/* NAME */
+.name{
+    margin-top:2vh;
+    font-size:clamp(16px, 2.2vw, 36px);
+    font-weight:600;
+    margin-left:8vw;
+}
+
+/* FOOTER */
+.footer{
+    position:absolute;
+    bottom:4vh;
+    left:6vw;
+    font-size:clamp(12px, 1.2vw, 18px);
+    color:#111;
+}
+
+
+.page-content{
+    width:80%;
+    margin:120px auto;
+    font-size:18px;
+}
