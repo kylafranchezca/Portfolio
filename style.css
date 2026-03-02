@@ -68,47 +68,54 @@ nav a{
     margin:120px auto;
     font-size:18px;
 }
-/* ABOUT PAGE LAYOUT */
+
+
+/* ABOUT PAGE FIXED LAYOUT */
+
 .about-container{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    width:85%;
-    margin:100px auto;
+    width:90%;
+    margin:0 auto;
+    height:85vh;
 }
 
-/* LEFT SIDE TEXT */
+/* LEFT SIDE */
 .about-text{
     width:55%;
 }
 
 .about-text h1{
-    font-size:clamp(60px, 8vw, 140px);
+    font-size:120px;
     font-weight:900;
     line-height:1;
-    margin-bottom:20px;
+    margin-bottom:25px;
 }
 
 .about-text h2{
-    font-size:24px;
+    font-size:26px;
     font-weight:600;
     margin-bottom:20px;
 }
 
 .about-text p{
-    font-size:16px;
-    line-height:1.6;
+    font-size:17px;
+    line-height:1.8;
     margin-bottom:20px;
+    max-width:600px;
 }
 
-/* RIGHT SIDE IMAGE */
+/* RIGHT SIDE */
 .about-image{
     width:40%;
+    height:80vh;
+    overflow:hidden;
 }
 
 .about-image img{
     width:100%;
-    height:auto;
+    height:100%;
     object-fit:cover;
     filter:grayscale(100%);
 }
